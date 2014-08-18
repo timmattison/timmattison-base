@@ -62,4 +62,5 @@ mv java/src/test/java/SharedTest.java $TEST_PACKAGE_DIRECTORY/SharedTest.java
 mv java/PROJECT_NAME.iml java/$PROJECT_NAME.iml
 echo "Put README info here" > README.md
 rm create-new-project.sh
+rm -rf .git
 popd
