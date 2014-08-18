@@ -2,13 +2,8 @@ package PACKAGE_NAME;
 
 import org.apache.commons.io.IOUtils;
 
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.PrintStream;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
 
 public class SharedTest {
 
