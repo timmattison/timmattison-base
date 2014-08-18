@@ -148,13 +148,11 @@
         </dependency>
 	-->
 	<!-- Apache Commons IO dependency (https://commons.apache.org/proper/commons-io/) -->
-	<!--
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>2.4</version>
         </dependency>
-	-->
 	<!-- Apache Commons CLI dependency (https://commons.apache.org/proper/commons-cli/) -->
 	<!--
         <dependency>
