@@ -11,7 +11,7 @@ public class MAIN_CLASS {
     /* COMMONS_CLI_START */
     /* Example command line processing with commons CLI */
     /*
-    private static void processCommandLineOptions() {
+    private static void processCommandLineOptions(String[] args) {
     	final String INPUT = "input";
     	final String OUTPUT = "output";
     	final String INPUT_FILE_NAME = "input file name";
