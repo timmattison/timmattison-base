@@ -60,4 +60,6 @@ mv java/src/main/java/MAIN_CLASS.java $PACKAGE_DIRECTORY/$MAIN_CLASS.java
 mv java/src/main/java/MAIN_CLASSModule.java $PACKAGE_DIRECTORY/${MAIN_CLASS}Module.java
 mv java/src/test/java/SharedTest.java $TEST_PACKAGE_DIRECTORY/SharedTest.java
 mv java/PROJECT_NAME.iml java/$PROJECT_NAME.iml
+echo "Put README info here" > README.md
+rm create-new-project.sh
 popd
