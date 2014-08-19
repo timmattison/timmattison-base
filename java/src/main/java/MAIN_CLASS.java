@@ -39,7 +39,7 @@ public class MAIN_CLASS {
     }
 
     private static void showUsageInfo() {
-        System.err.println("You must specify an input file as the first argument and the output file as the second argument.");
+        System.err.println("You must specify an input file with '--input' and an output file with '--output'.");
         System.exit(1);
     }
     */
