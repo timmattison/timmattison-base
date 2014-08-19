@@ -17,4 +17,17 @@ public class SharedTest {
     private static String readFileAsString(String inputFile) throws IOException {
         return IOUtils.toString(new InputStreamReader(inputFile.getClass().getResourceAsStream(inputFile)));
     }
+
+    /* MULTIBINDER_EXAMPLE_START */
+    /* Example of getting a multibinder for a test */
+    /*
+    private static void getMultibinder(Injector injector) {
+        TypeLiteral<Set<YourInterface>> yourInterfaceTypeLiteral = new TypeLiteral<Set<YourInterface>>() {
+        };
+
+        // Get the multibinding from Guice for Set<YourInterface>
+        return injector.getInstance(Key.get(yourInterfaceTypeLiteral));
+    }
+    */
+    /* MULTIBINDER_EXAMPLE_END */
 }
